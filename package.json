@@ -1,6 +1,6 @@
 {
   "name": "selenium-mocha",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Run mocha tests in the selenium environment",
   "keywords": [
     "test",
@@ -10,7 +10,7 @@
     "webdriver",
     "webdriverjs"
   ],
-  "main": "index.js",
+  "main": "lib/browser.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/maxmalov/selenium-mocha.git"
