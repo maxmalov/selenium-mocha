@@ -10,7 +10,7 @@
     "webdriver",
     "webdriverjs"
   ],
-  "main": "lib/browser.js",
+  "main": "lib/runner.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/maxmalov/selenium-mocha.git"
@@ -29,7 +29,8 @@
     "glob": "~3.2.8"
   },
   "bin": {
-    "webdriver-manager": "bin/webdriver-manager.js"
+    "selenium-mocha": "bin/selenium-mocha",
+    "webdriver-manager": "bin/webdriver-manager"
   },
   "webdriverVersions": {
     "selenium": "2.39.0",
