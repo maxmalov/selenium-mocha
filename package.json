@@ -1,5 +1,5 @@
 {
-  "name": "selenium-mocha",
+  "name": "selenium-mocha-runner",
   "version": "0.1.0",
   "description": "Run mocha tests in the selenium environment",
   "keywords": [
