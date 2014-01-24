@@ -2,6 +2,14 @@
   "name": "selenium-mocha",
   "version": "0.0.1",
   "description": "Run mocha tests in the selenium environment",
+  "keywords": [
+    "test",
+    "testing",
+    "selenium",
+    "mocha",
+    "webdriver",
+    "webdriverjs"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -12,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/maxmalov/selenium-mocha/issues"
   },
-  "homepage": "https://github.com/maxmalov/selenium-mocha"
+  "homepage": "https://github.com/maxmalov/selenium-mocha",
+  "dependencies": {
+    "selenium-webdriver": "~2.39.0"
+  }
 }
