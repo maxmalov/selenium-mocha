@@ -22,6 +22,18 @@
   },
   "homepage": "https://github.com/maxmalov/selenium-mocha",
   "dependencies": {
-    "selenium-webdriver": "~2.39.0"
+    "selenium-webdriver": "~2.39.0",
+    "optimist": "~0.6.0",
+    "mkdirp": "~0.3.5",
+    "adm-zip": "~0.4.3",
+    "url": "~0.7.9"
+  },
+  "bin": {
+    "webdriver-manager": "bin/webdriver-manager.js"
+  },
+  "webdriverVersions": {
+    "selenium": "2.39.0",
+    "chromedriver": "2.8",
+    "iedriver": "2.39.0"
   }
 }
