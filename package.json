@@ -1,0 +1,16 @@
+{
+  "name": "selenium-mocha",
+  "version": "0.0.1",
+  "description": "Run mocha tests in the selenium environment",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxmalov/selenium-mocha.git"
+  },
+  "author": "Maxim Malov <mmalovv@gmail.com>",
+  "license": "Apache v2 License",
+  "bugs": {
+    "url": "https://github.com/maxmalov/selenium-mocha/issues"
+  },
+  "homepage": "https://github.com/maxmalov/selenium-mocha"
+}
