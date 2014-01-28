@@ -5,6 +5,7 @@ describe('Yandex search', function () {
     $('.b-morda-search__button input[type=submit]').click();
   });
 
+  ignore.browsers('chrome').
   it('should search', function () {
     browser.wait(function () {
       return browser.getTitle().then(function (title) {
