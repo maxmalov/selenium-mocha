@@ -53,7 +53,7 @@ var binaries = {
     prefix: 'iedriverServer',
     filename: 'iedriverServer_' + versions.iedriver + '.zip',
     url: function () {
-      var urlPrefix = 'https://selenium.googlecode.com/files/iedriverServer';
+      var urlPrefix = 'https://selenium.googlecode.com/files/IEDriverServer';
       if (os.type() == 'Windows_NT') {
         if (os.arch() == 'x64') {
           return urlPrefix + '_x64_' + versions.iedriver + '.zip';
