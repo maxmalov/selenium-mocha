@@ -10,7 +10,7 @@
     "webdriver",
     "webdriverjs"
   ],
-  "main": "lib/runner.js",
+  "main": "lib/browser.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/maxmalov/selenium-mocha.git"
@@ -26,7 +26,8 @@
     "optimist": "~0.6.0",
     "mkdirp": "~0.3.5",
     "adm-zip": "~0.4.3",
-    "glob": "~3.2.8"
+    "glob": "~3.2.8",
+    "mocha": "~1.17.1"
   },
   "bin": {
     "selenium-mocha": "bin/selenium-mocha",
