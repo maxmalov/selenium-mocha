@@ -1,6 +1,6 @@
 {
   "name": "selenium-mocha-runner",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Run mocha tests in the selenium environment",
   "keywords": [
     "test",
